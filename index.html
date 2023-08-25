@@ -6,22 +6,27 @@
     <title>Html</title>
     <meta name="keywords" content="Tim,Potaraeiv,resume">
     <meta name="discription" content="Сайт резюме Tim Zakhorov">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="de2eb1b4-b681-4d1f-9542-a4d4677c026e.png" alt="Tim" width="200"> 
+    <div class="container"><div class="info">
+    <img src="de2eb1b4-b681-4d1f-9542-a4d4677c026e.png" alt="Tim" class="avatar"> 
     <h1>Тимофей Потеряев</h1>
-    <hr>
-    <p>Я начинающий<strong> программист</strong> <em>который только недавно</em> начал учить HTML и CSS в result_school.</p>
+    <hr><div class="info-text">
+    <p class="card i">Я начинающий<strong> программист</strong> <em>который только недавно</em> начал учить HTML и CSS в result_school.</p>
 <h3>Социальные сети</h3>
     <a href="https://t.me/Youkon5" target="_blank">Telegram </a>
-    <hr>
-<h3>Мои хобби.</h3>
-<ol><li>Плавание</li>
+    <hr></div></div>
+    <div class="card bk-pink">
+<h3 >Мои хобби.</h3>
+<ol class="list" ><li>Плавание</li>
 <li>Читать</li>
 <li>Путешествовать</li>
 </ol>
+</div><div class="card bk-green">
 <h3>Опыт работы</h3>
-<table>
+<table  class="table">
+    
     <thead>
         <tr>
         <th>Название</th>
@@ -46,20 +51,23 @@
         </tr>
     </tbody>
 </table>
-<h1>Связаться со мной
-</h1>
-<div>
+<form action="/" class="form"></form>
+<h3>Связаться со мной
+</h3>
+<div class="form-row">
+<div class="form-group">
 <label for="name">Имя</label>
 <input type="text" id="name" placeholder="введите Имя">
-</div><div>
+</div><div class="form-group">
     <label for="Email">Email</label>
     <input type="email" id="email" placeholder="введите Email">
-    </div><div>
-        <label for="messange">Сообщение</label>
-        <br>
+    </div><div class="form-group"></div></div>
+        <label for="messange" class="messange">Сообщение</label>
+    <br>
         <textarea  id="messange" cols="20" rows="5" placeholder="Введите Сообщение..."></textarea>
-        </div>
-        <input type="submit" value="Отправить!">
+    <br>
+        <input class="btn" type="submit" value="Отправить!">
+    
 </body>
 </body>
 </html>
